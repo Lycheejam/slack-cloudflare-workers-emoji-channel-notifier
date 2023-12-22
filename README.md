@@ -9,3 +9,17 @@ Slack BOTをCloudflare Workersで動かしてみるサンプルです。
 
 利用する際は `.dev.vars.example` を `.dev.vars` にリネームして使用してください。  
 あとは参考記事の通りに進められます。
+
+## NOTE
+
+deploy
+
+```sh
+npx wrangler deploy
+```
+
+secret
+
+```sh
+npx wrangler secret put SLACK_SIGNING_SECRET
+```
