@@ -1,3 +1,3 @@
-name = "slack-edge-channel-notification"
+name = "slack-cloudflare-workers-emoji-channel-notifier"
 main = "src/index.ts"
 compatibility_date = "2023-12-22"
