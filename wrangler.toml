@@ -1,0 +1,3 @@
+name = "slack-edge-channel-notification"
+main = "src/index.ts"
+compatibility_date = "2023-12-22"
