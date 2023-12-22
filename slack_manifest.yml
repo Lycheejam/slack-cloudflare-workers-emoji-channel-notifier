@@ -1,0 +1,24 @@
+display_information:
+  name: :slack-cloudflare-workers-emoji-channel-notifier
+features:
+  bot_user:
+    display_name: :slack-cloudflare-workers-emoji-channel-notifier
+    always_online: false
+oauth_config:
+  scopes:
+    bot:
+      - channels:read
+      - emoji:read
+      - chat:write
+settings:
+  event_subscriptions:
+    request_url: https://example.com/slack/events
+    bot_events:
+      - channel_archive
+      - channel_created
+      - channel_deleted
+      - channel_rename
+      - emoji_changed
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
